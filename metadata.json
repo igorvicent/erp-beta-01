@@ -1,0 +1,8 @@
+{
+  "name": "EdificaPro - Gestão de Obras",
+  "description": "Uma plataforma robusta para gestão completa de obras, incluindo orçamentos, cronogramas, diários de obra e faturamento fiscal.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
