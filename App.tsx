@@ -7,6 +7,7 @@ import Orcamentos from './pages/Orcamentos';
 import Financeiro from './pages/Financeiro';
 import Suprimentos from './pages/Suprimentos';
 import Diario from './pages/Diario';
+import Contatos from './pages/Contatos';
 import BottomNav from './components/BottomNav';
 
 const App: React.FC = () => {
@@ -20,6 +21,7 @@ const App: React.FC = () => {
       case 'financeiro': return <Financeiro />;
       case 'suprimentos': return <Suprimentos />;
       case 'diario': return <Diario />;
+      case 'contatos': return <Contatos />;
       default: return <Dashboard />;
     }
   };

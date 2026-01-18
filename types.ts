@@ -1,5 +1,5 @@
 
-export type AppView = 'dashboard' | 'obras' | 'orcamentos' | 'financeiro' | 'suprimentos' | 'diario';
+export type AppView = 'dashboard' | 'obras' | 'orcamentos' | 'financeiro' | 'suprimentos' | 'diario' | 'contatos';
 
 export interface KPI {
   label: string;
@@ -7,6 +7,15 @@ export interface KPI {
   trend?: string;
   type: 'money' | 'count' | 'percentage';
   color: string;
+}
+
+export interface Contact {
+  id: string;
+  name: string;
+  document: string;
+  email: string;
+  phone: string;
+  type: 'cliente' | 'fornecedor' | 'prestador';
 }
 
 export interface Budget {

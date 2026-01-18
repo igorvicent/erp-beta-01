@@ -12,8 +12,8 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView, setView }) => {
     { view: 'dashboard', icon: 'dashboard', label: 'Início' },
     { view: 'obras', icon: 'apartment', label: 'Obras' },
     { view: 'suprimentos', icon: 'inventory_2', label: 'Suprimentos' },
+    { view: 'contatos', icon: 'group', label: 'Contatos' },
     { view: 'financeiro', icon: 'payments', label: 'Financeiro' },
-    { view: 'orcamentos', icon: 'description', label: 'Orçamentos' },
   ];
 
   return (
